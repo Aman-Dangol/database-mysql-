@@ -1,0 +1,1 @@
+studentsPRIMARYSELECT * FROM aman.students;
