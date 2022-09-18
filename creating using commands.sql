@@ -20,7 +20,7 @@ create table orders(id int auto_increment not null, cusId int not null , proID i
  insert into product(`name`,`price`) values("mac",300);
  insert into customer(`name`,`contact`,`address`) values ("dsa",9420,"uk");
  insert into orders(`cusId`,`proID`) values(1,1);
- select customer.name , orders.* from customer , orders inner join orders on 
+ select customer.name , orders.* from customer  inner join orders on 
  customer.cid=orders.cusID;
  
 
