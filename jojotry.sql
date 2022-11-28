@@ -13,5 +13,6 @@ create table student
  select * from student
  delete from student where id=8 
  update student set name = 'sudarshan' where name ='suddu'
+ update student set name ='chor' where name ='SANDESH'
 
  
