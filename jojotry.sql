@@ -9,7 +9,7 @@ create table student
  
  )
  alter table student add phone int not null 
- insert student( name,address,contact,phone)values ('samira','kalani','ss@gmail.com',5400)
+ insert student( name,address,contact,phone)values ('asd','teku','ad@gmail.com',5409)
  select * from student
  delete from student where id=8 
  update student set name = 'sudarshan' where name ='suddu'
